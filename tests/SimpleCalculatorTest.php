@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Vadim\UnitExamples;
+namespace Tests\VisualCraft\UnitExamples;
 
 use PHPUnit_Framework_TestCase;
-use Vadim\UnitExamples\SimpleCalculator;
+use VisualCraft\UnitExamples\SimpleCalculator;
 use VladaHejda\AssertException;
 
 class SimpleCalculatorTest extends PHPUnit_Framework_TestCase

@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Vadim\UnitExamples;
+namespace Tests\VisualCraft\UnitExamples;
 
 use PHPUnit_Framework_TestCase;
-use Tests\Vadim\UnitExamples\Fixtures\ManualOperatorStub;
-use Vadim\UnitExamples\Calculator;
-use Vadim\UnitExamples\OperatorInterface;
+use Tests\VisualCraft\UnitExamples\Fixtures\ManualOperatorStub;
+use VisualCraft\UnitExamples\Calculator;
+use VisualCraft\UnitExamples\OperatorInterface;
 use VladaHejda\AssertException;
 
 class CalculatorTest extends PHPUnit_Framework_TestCase

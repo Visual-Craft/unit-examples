@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Vadim\UnitExamples;
+namespace Tests\VisualCraft\UnitExamples;
 
 use PHPUnit_Framework_TestCase;
-use Vadim\UnitExamples\AdditionOperator;
+use VisualCraft\UnitExamples\AdditionOperator;
 
 class AdditionOperatorTest extends PHPUnit_Framework_TestCase
 {

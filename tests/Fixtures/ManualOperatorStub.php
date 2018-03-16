@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Vadim\UnitExamples\Fixtures;
+namespace Tests\VisualCraft\UnitExamples\Fixtures;
 
-use Vadim\UnitExamples\OperatorInterface;
+use VisualCraft\UnitExamples\OperatorInterface;
 
 class ManualOperatorStub implements OperatorInterface
 {

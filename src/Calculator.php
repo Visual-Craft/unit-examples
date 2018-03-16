@@ -1,6 +1,6 @@
 <?php
 
-namespace Vadim\UnitExamples;
+namespace VisualCraft\UnitExamples;
 
 class Calculator
 {

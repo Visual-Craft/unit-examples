@@ -2,5 +2,5 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$simpleCalculator = new \Vadim\UnitExamples\SimpleCalculator();
+$simpleCalculator = new \VisualCraft\UnitExamples\SimpleCalculator();
 echo $simpleCalculator->add(1, 2);

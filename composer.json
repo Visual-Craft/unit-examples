@@ -1,5 +1,5 @@
 {
-    "name": "vadim/unit-examples",
+    "name": "visual-craft/unit-examples",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -9,11 +9,11 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Vadim\\UnitExamples\\": "src" }
+        "psr-4": { "VisualCraft\\UnitExamples\\": "src" }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Vadim\\UnitExamples\\": "tests"
+            "Tests\\VisualCraft\\UnitExamples\\": "tests"
         }
     },
     "require-dev": {
