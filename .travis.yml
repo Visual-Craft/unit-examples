@@ -12,5 +12,6 @@ before_script:
 
 script:
      - vendor/bin/phpunit
+     - vendor/bin/kahlan
      - $HOME/.composer/vendor/bin/php-cs-fixer --diff --dry-run -v fix ./src
      - $HOME/.composer/vendor/bin/phpcpd ./src

@@ -21,7 +21,8 @@
         "vladahejda/phpunit-assert-exception": "^1.0",
         "johnkary/phpunit-speedtrap": "^1.0",
         "brianium/paratest": "^0.14.0",
-        "ozh/phpunit-overassertive": "dev-master"
+        "ozh/phpunit-overassertive": "dev-master",
+        "kahlan/kahlan": "^4.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
