@@ -23,6 +23,24 @@ class AdditionOperatorTest extends PHPUnit_Framework_TestCase
         $this->assertSame($expectedResult, $result);
     }
 
+    public function testArity()
+    {
+        $operator = new AdditionOperator();
+
+        $result = $operator->arity();
+
+        $this->assertSame(2, $result);
+    }
+
+    public function test__toString()
+    {
+        $operator = new AdditionOperator();
+
+        $result = (string) $operator;
+
+        $this->assertSame('+', $result);
+    }
+
     /**
      * @return array
      */
